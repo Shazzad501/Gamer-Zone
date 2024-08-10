@@ -1,0 +1,45 @@
+/* Google font style link start */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+/* Google font style link end */
+
+/* Universal tag selector style start */
+*{
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+/* Universal tag selector style end */
+
+/* Sheard style start */
+section{
+  max-width:1440px;
+  margin: auto auto 100px auto;
+  padding:auto 30px auto 30px;
+}
+
+.btn{
+  cursor: pointer;
+  padding:12px 18px 12px 18px;
+  font-size:1.1rem;
+  font-weight: 800;
+  border-radius:20px;
+  color:var(--bg-color);
+  background:var(--btn-color);
+}
+
+:root {
+  --btn-color:linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+  --bg-color:rgb(255, 255, 255);
+  --default-color: rgb(0, 0, 0);
+  --primary-text:rgb(83, 76, 100);
+}
+
+.section-title{
+  background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  text-fill-color:transparent;
+}
+/* Sheard style end */
