@@ -180,7 +180,6 @@ color: var(--default-color);
 .we-are-gamer{
   display: flex;
   padding-top:50px;
-  padding-bottom: 50px;
   margin-top: -50px;
   background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
 }
