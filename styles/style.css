@@ -1,10 +1,10 @@
 /* Google font style link start */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
 /* Google font style link end */
 
 /* Universal tag selector style start */
 *{
-  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-family: "Crete Round", serif;
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
@@ -15,16 +15,22 @@
 section{
   max-width:1440px;
   margin: auto auto 100px auto;
-  padding:auto 30px auto 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .btn{
   cursor: pointer;
   padding:12px 18px 12px 18px;
-  font-size:1.1rem;
-  font-weight: 800;
-  border-radius:20px;
+  font-size:1rem;
+  font-weight: 400;
+  border-radius:48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   color:var(--bg-color);
+  border: none;
   background:var(--btn-color);
 }
 
@@ -42,4 +48,130 @@ section{
   background-clip:text;
   text-fill-color:transparent;
 }
+
+a{
+  text-decoration: none;
+  color: var(--default-color);
+}
 /* Sheard style end */
+
+/* navbar style start */
+.navbar{
+  max-width:1440px;
+  margin: auto auto;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+}
+.brand img{
+  width: 100%;
+}
+.brand p{
+  font-size:2.5rem;
+  font-weight: 900;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+}
+.menu p a{
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+.menu p:hover{
+  background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  text-fill-color:transparent;
+}
+.menu button{
+  border-radius: 8px;
+background: rgba(11, 2, 35, 0.1);
+color: var(--default-color);
+}
+.menu button .youtube a{
+  color: red;
+}
+/* navbar style end */
+
+/* Banner section style start */
+.banner{
+  display: flex;
+  /* background: linear-gradient(90deg, rgb(244, 242, 242), rgb(244, 242, 242)); */
+}
+.banner-content{
+  width: 50%;
+  background: url(../assets/Group\ 14.png);
+  background-size:contain;
+  background-origin: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.banner-content h4{
+  font-size:2.6rem;
+  font-weight: 600;
+}
+.banner-content h2{
+  font-size:4.5rem;
+  font-weight: 1000;
+}
+.play{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: var(--primary-text);
+}
+.play span{
+  color: red;
+}
+.download{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: var(--primary-text);
+}
+.download span{
+  color: red; 
+}
+.group{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: var(--primary-text);
+}
+.group span{
+  color: var(--default-color);
+}
+.btn-div{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: -80px;
+}
+.btn-div .btn-2{
+  background: rgb(78, 197, 247);
+}
+.banner-img{
+  width: 50%;
+}
+.banner-img img{
+  width: 100%;
+}
+/* Banner section style end */
