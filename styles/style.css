@@ -219,6 +219,7 @@ margin-top:15px;
 
 /* Online game funny video section style start */
 .online-game{
+
 }
 .online-game .online-heading{
   text-align: center;
@@ -293,3 +294,55 @@ height: 100%;
   margin-top: -1px;
 }
 /* Online game funny video section style end */
+
+
+/* Play instandtly section style start */
+.play-instandtly{
+  display: flex;
+  gap:8%;
+}
+.instandtly-content{
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: right;
+}
+.instandtly-content h2{
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.instandtly-content p{
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--primary-text);
+}
+.instandtly-img{
+  width: 50%;
+  height:600px;
+  position: relative;
+}
+.instandtly-img .horse{
+  width:80%;
+  height: 90%;
+  margin-left: 20%;
+}
+.instandtly-img .horse img{
+  width:100%;
+  height: 100%;
+}
+.f-cat{
+  width:300px;
+  height:340px;
+  position: absolute;
+  top:258px;
+  left: 0px;
+}
+.f-cat img{
+  width:100%;
+  height: 100%;
+}
+
+/* Play instandtly section style end */
