@@ -14,7 +14,7 @@
 /* Sheard style start */
 section{
   max-width:1440px;
-  margin: auto auto 100px auto;
+  margin: auto auto 50px auto;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -175,3 +175,45 @@ color: var(--default-color);
   width: 100%;
 }
 /* Banner section style end */
+
+/* We are gamer section style start */
+.we-are-gamer{
+  display: flex;
+  padding-top:50px;
+  padding-bottom: 50px;
+  margin-top: -50px;
+  background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+}
+.gamer-img{
+  width:60%;
+}
+.gamer-img img{
+  width: 100%;
+}
+.gamer-content{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  text-align: end;
+}
+.gamer-content h2{
+  font-size:2.5rem;
+  font-weight: 800;
+}
+.gamer-content p{
+  font-size:1.1rem;
+  font-weight: 400;
+  margin-top: 15px;
+  color: var(--primary-text);
+}
+.gamer-content button{
+margin-top:15px;
+}
+.gamer-content h3{
+  font-size:1.5rem;
+  font-weight: 800;
+  margin-top:15px;
+}
+/* We are gamer section style end */
