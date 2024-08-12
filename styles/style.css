@@ -14,7 +14,7 @@
 /* Sheard style start */
 section{
   max-width:1440px;
-  margin: auto auto 50px auto;
+  margin: auto auto 70px auto;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -481,3 +481,45 @@ height: 100%;
   color: rgb(255, 66, 165);
 }
 /* All game section style end */
+
+/* footer section style start */
+footer{
+  width:100%;
+  padding-top:70px;
+  padding-bottom: 70px;
+  background: rgb(11, 2, 35);
+}
+.main-footer{
+  max-width:1440px;
+  margin: auto auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.main-footer div{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.main-footer div p{
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+.main-footer .footer-3 p{
+  font-size: 1.5rem;
+}
+.footer-1 h3{
+font-size: 3rem;
+color: white;
+font-weight: 800;
+}
+
+/* footer section style end */
