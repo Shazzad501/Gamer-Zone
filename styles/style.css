@@ -456,3 +456,28 @@ height: 100%;
   height: 100%;
 }
 /* Careers section style end */
+
+/* All game section style start */
+.all-game{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.all-game div{
+  width:20%;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.all-game div p{
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left:15px;
+  color: rgb(255, 66, 165);
+}
+/* All game section style end */
